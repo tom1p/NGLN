@@ -11,9 +11,10 @@ NGLN is a next-generation CRM system designed to simplify logistic network manag
 ## ✅ Project Status
 ### Features
 - [ ] **API Gateway**: Centralized routing and authentication. *(In Progress)*
+- [ ] **Frontend**: User interface. *(Planned)*
 - [ ] **User Service**: User and role management. *(Planned)*
 - [ ] **Sales Service**: Customer, lead, and sales handling. *(Planned)*
-- [ ] **Frontend**: Next.js-based user interface. *(Planned)*
+
 
 ---
 
@@ -74,7 +75,41 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 
 ---
 
-## 📋 Future Goals
-- [ ] Implement role-based access control (RBAC) in User Service.
-- [ ] Integrate payment processing in Sales Service.
-- [ ] Add detailed analytics and reporting modules.
+## 📋 Plan
+
+### **Milestone 1: MVP**
+
+- [ ] Implement user registration and login system.
+- [ ] Implement the API for user CRUD operations.
+- [ ] Create a simple frontend.
+
+### **Milestone 2: Backend and Frontend**
+
+- [ ] Extend the backend with additional features.
+- [ ] Continue developing the frontend and ensure responsiveness.
+- [ ] Prepare the environment for Kubernetes.
+
+### **Milestone 3: CI/CD (Integration and Deployment)**
+
+- [ ] Set up CI/CD pipeline, automated tests, and deployments to the staging environment.
+
+### **Milestone 4: UX/UI Development**
+
+- [ ] Develop UX/UI.
+- [ ] Improve the user interface.
+
+### **Milestone 5: Testing and Optimization**
+
+- [ ] Test the API, frontend, and integration with Kubernetes and Docker.
+- [ ] Optimize the application for performance.
+
+### **Milestone 6: Integration with Selected Payment System (future plan - optional)**
+
+- [ ] Integrate with the selected payment system.
+- [ ] Implement and test basic payments.
+
+### **Milestone 7: Finalization**
+
+- [ ] Set up CI/CD pipeline, automated tests, and deployments to the production environment.
+- [ ] Deploy the application to production.
+

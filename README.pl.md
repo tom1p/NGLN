@@ -11,9 +11,9 @@ NGLN to system CRM nowej generacji, zaprojektowany w celu uproszczenia zarządza
 ## ✅ Status projektu
 ### Funkcje
 - [ ] **API Gateway**: Centralne routowanie i uwierzytelnianie. *(W trakcie)*
+- [ ] **Frontend**: Interfejs użytkownika. *(Zaplanowane)*
 - [ ] **User Service**: Zarządzanie użytkownikami i rolami. *(Zaplanowane)*
 - [ ] **Sales Service**: Obsługa klientów, leadów i sprzedaży. *(Zaplanowane)*
-- [ ] **Frontend**: Interfejs użytkownika w Next.js. *(Zaplanowane)*
 
 ---
 
@@ -74,7 +74,41 @@ Projekt jest licencjonowany na podstawie Apache License 2.0. Szczegóły znajdzi
 
 ---
 
-## 📋 Przyszłe cele
-- [ ] Wdrożenie kontroli dostępu opartej na rolach (RBAC) w User Service.
-- [ ] Integracja obsługi płatności w Sales Service.
-- [ ] Dodanie zaawansowanych modułów analitycznych i raportów.
+## 📋 Plan
+
+### **Milestone 1: MVP**
+
+- [ ] Implementacja systemu logowania i rejestracji użytkowników.
+- [ ] Zaimplementowanie API dla CRUD użytkowników.
+- [ ] Stworzenie prostego frontendu.
+
+### **Milestone 2: Backend i Frontend**
+
+- [ ] Rozbudowa backendu o dodatkowe funkcje.
+- [ ] Dalszy rozwój frontendu i zapewnienie responsywności.
+- [ ] Przygotowanie środowiska na Kubernetes.
+
+### **Milestone 3: CI/CD (Integracja i Deployment)**
+
+- [ ] Skonfigurowanie pipeline’u CI/CD, automatyczne testy i wdrożenia na środowisko staging.
+
+### **Milestone 4: Rozwój UX/UI**
+
+- [ ] Rozwój UX/UI.
+- [ ] Ulepszenie interfejsu użytkownika.
+
+### **Milestone 5: Testy i optymalizacja**
+
+- [ ] Testowanie API, frontend, integracja z Kubernetes i Docker.
+- [ ] Optymalizacja aplikacji pod kątem wydajności.
+
+### **Milestone 6: Integracja z wybranym systemem płatności (przyszły plan - opcjonalnie)**
+
+- [ ] Integracja z wybranym systemem płatności.
+- [ ] Wdrożenie i przetestowanie podstawowych płatności.
+
+### **Milestone 7: Finalizacja**
+
+- [ ] Skonfigurowanie pipeline’u CI/CD, automatyczne testy i wdrożenia na środowisko produkcyjne.
+- [ ] Wdrożenie aplikacji na produkcję.
+
